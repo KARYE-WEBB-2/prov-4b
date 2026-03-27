@@ -1,11 +1,9 @@
 // --- Del 1: inställningar och grundläggande ---
 
-// 1. Hämta element och sätt upp canvas
-// Hämta canvas-elementet här:
+// 1. Setup
+// Ställ in canvas för 2d
 
-// Skapa din 2D-kontext (ctx) här:
-
-// Hämta knapparna #raket-upp, #raket-ner och #asteroid-btn här:
+// Hämta knapparna .raket-upp, .raket-ner och .asteroid-btn här:
 
 
 // 2. Ladda in bilden
@@ -13,7 +11,7 @@
 
 
 // 3. Skapa dina dataobjekt
-// Skapa objektet 'asteroid' med x, y och egenskapen spela (false från början)
+// Skapa objektet 'asteroid' med x, y och variabeln spela (false från början)
 
 // Skapa objektet 'raket' med x och y
 
@@ -39,13 +37,13 @@ function ritaAsteroid() {
 // --- Del 3: interaktion och animering ---
 
 // 6. Styra raketen med knappar
-// Lägg till en eventlistener för "Raket upp" (#raket-upp) som minskar raketens y-värde
+// Lägg till en eventlistener för "Raket upp" (.raket-upp) som minskar raketens y-värde
 
-// Lägg till en eventlistener för "Raket ner" (#raket-ner) som ökar raketens y-värde
+// Lägg till en eventlistener för "Raket ner" (.raket-ner) som ökar raketens y-värde
 
 
 // 7. Animera asteroiden (logik)
-// Lägg till en eventlistener för "Skicka asteroid" (#asteroid-btn) som sätter asteroidens 'spela' till true
+// Lägg till en eventlistener för "Skicka asteroid" (.asteroid-btn) som sätter asteroidens 'spela' till true
 
 
 function animeraAsteroid() {
